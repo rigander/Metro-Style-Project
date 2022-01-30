@@ -57,14 +57,15 @@
     background-color: aqua;
 }
 
-.position {
-    position:relative;
-    height: 2.0cm;
+.container {
+    position: relative;
+    display: block;
+    min-height: 80px;
+    max-height:150px;
+    width:100%;
     background: #393a39;
-
     color:white;
     font-size: 16pt;
-    padding: 15px;
 }
 
 .flink {
@@ -81,38 +82,33 @@
     text-decoration: none;   
 }
 
-.icon_facebook {
-    width: 43px;
-    height: auto;
-}
-
-.icon_twitter {
-    width: 43px;
-    height: auto;
-}
-
-.icon_youtube {
-    width: 43px;
-    height: auto;
-}
 .link {
-    width:fit-content;
-    height:fit-content;
-    text-align: center;
+    position: absolute;
+    top:28%;
+    left:38%;
 }
-.links {
-    position: relative;
-    display: flex;
-    margin-left: 600px;
-    margin-top: 18px;
+@media (max-width: 1000px){
+    .link {
+        position: absolute;
+        left:5%;
+        top:28%;
+    }
+}
+@media (max-width: 600px){
+    .link {
+        width:50%;
+    }
 }
 
-.slink {
-    display: flex;
-    width: 150px;
-    height: fit-content;
-    padding-left: 350px;
+
+
+.icons {
+    position: absolute;
+    top:33%;
+    right:12%;
+    letter-spacing: 13px;
 }
+
 
 a:hover {
     text-decoration: underline;
