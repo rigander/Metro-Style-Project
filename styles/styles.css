@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Segoe WP", sans-serif;
+    src: url("SegoeWP.ttf");
+}
+ body {
+     font-family: "Segoe WP", sans-serif;
+ }
+
+
+
+
+.apple {
+    width:fit-content;
+    height: fit-content;
+}
+.apple h1 {
+    height:25px;
+    font-weight:200;
+    color: #373737;
+}
+
+.apple h1 {
+    font-size:49pt;
+}
+
+.apple h2 {
+
+    font-size: 40pt;
+    font-weight: 450;
+    color:#373737;
+}
+.video {
+    position: relative;
+    width:220px;
+    height:38px;
+    background:#373737;
+    font-size: 18pt;
+
+
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: -25px;
+}
+
+.vr2 {
+
+    font-size: 18pt;
+    color:white;
+    text-decoration: none;
+}
+
+.section {
+    position: relative;
+    width:100%;
+    height:700px;
+    background-color: aqua;
+}
+
+.position {
+    position:relative;
+    height: 2.0cm;
+    background: #393a39;
+
+    color:white;
+    font-size: 16pt;
+    padding: 15px;
+}
+
+.flink {
+
+    margin-top: 1cm;
+    
+    color:white;
+    font-size: 16pt;
+    
+}
+
+#rights {
+    color:white;
+    text-decoration: none;   
+}
+
+.icon_facebook {
+    width: 43px;
+    height: auto;
+}
+
+.icon_twitter {
+    width: 43px;
+    height: auto;
+}
+
+.icon_youtube {
+    width: 43px;
+    height: auto;
+}
+.link {
+    width:fit-content;
+    height:fit-content;
+    text-align: center;
+}
+.links {
+    position: relative;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 18px;
+}
+
+.slink {
+    display: flex;
+    width: 150px;
+    height: fit-content;
+    padding-left: 350px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:blue;
+}
+
+
+
+
