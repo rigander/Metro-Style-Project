@@ -7,9 +7,14 @@
  }
 
 .apple {
-    width:fit-content;
-    height: fit-content;
+    width:400px;
+    height:300px;
+    padding-bottom: 200px;
+    float: left;
+
 }
+
+
 .apple h1 {
     height:25px;
     font-weight:200;
@@ -23,8 +28,9 @@
 .apple h2 {
 
     font-size: 40pt;
-    font-weight: 450;
+    font-weight:lighter;
     color:#373737;
+    padding-top: 15px;
 }
 .video {
     position: relative;
@@ -32,12 +38,50 @@
     height:38px;
     background:#373737;
     font-size: 18pt;
-
-
     color: white;
     text-align: center;
     padding-top: 1px;
     margin-top: -25px;
+}
+
+.shapes {
+    width: 300px;
+    height: 240px;
+    background-image:url("/images/Layer 14.png");
+    position:relative;
+    word-spacing: 15px;
+    float:left;
+}
+#rights1, label {
+    font-size: 30pt;
+    text-decoration: none;
+    color:black;
+
+}
+
+.loremipsum {
+    column-count: 1;
+    width:460px;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 14pt;
+    word-spacing: 1px;
+    padding-left: 40px;
+}
+
+.loremipsum span {
+    color:transparent;
+}
+
+.shapes img {
+    position: relative;
+    top:70px;
+    left:40px;
+
+}
+.main {
+    margin-left:20%;
+    margin-right:20%;
 }
 
 
@@ -50,10 +94,11 @@
 
 .section {
     position: relative;
-    width:80%;
-    height:100%;
+    width:1000px;
+    height:1100px;
     background-color: white;
     column-count: 3;
+    column-gap: 30px;
 
 }
 
@@ -62,14 +107,24 @@
     color:black;
     font-weight: 300;
     text-align: justify;
-    padding: 30px 0;
+    padding-bottom:30px;
+    word-spacing: 3px ;
 }
 
 .post_header {
     font-size:26pt;
     font-weight: 400;
 }
+.small_header {
+    padding-top: 10px;
+    word-spacing: 2px;
+    font-size: 14pt;
+    padding-left: 2px;
+}
 
+.small_header span {
+    padding-left: 19px;
+}
 
 
 .container {
@@ -77,11 +132,11 @@
     bottom:0;
     min-height: 80px;
     max-height:150px;
-    width:100%;
+    width:1400px;
     background: #393a39;
     color:white;
     font-size: 16pt;
-    margin-top:500px;
+
 
 }
 
