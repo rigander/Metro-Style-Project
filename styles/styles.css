@@ -9,13 +9,14 @@
  }
 
 .apple {
-    width:400px;
-    height:300px;
-    padding-bottom: 200px;
+    width:1300px;
+    height:400px;
     float: left;
 
 }
-
+.Reviews {
+    width: 400px;
+}
 
 .apple h1 {
     height:25px;
@@ -45,23 +46,32 @@
     padding-top: 1px;
     margin-top: -25px;
 }
+.Ipad {
+    float:left;
+    margin-left: 500px;
+    margin-top: -250px;
+    transform: scale(1.2);
+
+
+
+}
 
 .wrapper{
     position: relative;
     float: left;
     width:1000px;
     height:350px;
-
+    padding-top: 100px;
 }
 .shapes {
     width: 450px;
-    height: 330px;
+    height: 310px;
     word-spacing: 15px;
     float:left;
     background: radial-gradient(#e4e4e4, #a5a5a5);
 }
 .loremipsum {
-    float:left;
+
     column-count: 1;
     width:460px;
     text-align: left;
@@ -69,6 +79,7 @@
     font-size: 14pt;
     word-spacing: 1px;
     padding-left: 40px;
+    margin-top: -15px;
 }
 .loremipsum span {
     color:transparent;
@@ -81,6 +92,15 @@
     top:120px;
     left:90px;
     transform: scale(1.3);
+}
+
+.ipadGuide {
+    width:320px;
+    height:310px;
+    border: black solid 1px;
+    float:right;
+    margin-top: -280px;
+    margin-right:-370px;
 }
 
 #Mac {
@@ -106,6 +126,7 @@
     background-color: white;
     column-count: 3;
     column-gap: 30px;
+    padding-top: 50px;
 
 }
 
@@ -143,6 +164,7 @@
     background: #393a39;
     color:white;
     font-size: 16pt;
+    margin-top: -40px;
 
 
 }
