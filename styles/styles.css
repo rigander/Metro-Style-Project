@@ -52,12 +52,17 @@
     word-spacing: 15px;
     float:left;
 }
-#rights1, label {
+
+
+#Reserved {
     font-size: 30pt;
     text-decoration: none;
     color:black;
-
 }
+
+#label1 {
+    font-size: 30pt;
+    }
 
 .loremipsum {
     column-count: 1;
@@ -144,13 +149,15 @@
 
 #rights {
     color:white;
-    text-decoration: none;   
+    text-decoration: none;
+    font-size:16pt;
 }
 
 .link {
     position: absolute;
     top:28%;
     left:38%;
+    font-size:16pt;
 }
 @media (max-width: 1000px){
     .link {
