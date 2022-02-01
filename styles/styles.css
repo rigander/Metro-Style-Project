@@ -4,6 +4,8 @@
 }
  body {
      font-family: "Segoe WP", sans-serif;
+     margin-left:20%;
+     margin-right:20%;
  }
 
 .apple {
@@ -44,13 +46,13 @@
     margin-top: -25px;
 }
 
+
 .shapes {
     width: 300px;
     height: 240px;
-    background-image:url("/images/Layer 14.png");
-    position:relative;
     word-spacing: 15px;
     float:left;
+    background: radial-gradient(#e4e4e4, #a5a5a5);
 }
 
 
@@ -82,13 +84,7 @@
     position: relative;
     top:70px;
     left:40px;
-
 }
-.main {
-    margin-left:20%;
-    margin-right:20%;
-}
-
 
 .vr2 {
 
