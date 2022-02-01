@@ -8,10 +8,49 @@
      margin-right:20%;
  }
 
+.top_menu{
+    position: absolute;
+    top:10px;
+    left:20px;
+    height: 100px;
+    width: 1400px;
+    background-color: #a5a5a5 ;
+    margin-left: 300px;
+}
+.metro-blog {
+    height:100px;
+    width:230px;
+}
+.metro {
+    float: left;
+    font-family: "Trebuchet MS", serif;
+    font-size: 37pt;
+    color: #595959;
+}
+
+.blog {
+    float: right;
+    font-family: "Trebuchet MS", serif;
+    font-size: 37pt;
+    font-weight: 600;
+}
+
+.round{
+    position: absolute;
+    width:30px;
+    height:30px;
+    top:20px;
+    left:100px;
+    background: #6dd025;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
 .apple {
     width:1300px;
     height:400px;
     float: left;
+    margin-top: 300px;
 
 }
 .Reviews {
@@ -95,12 +134,46 @@
 }
 
 .ipadGuide {
+    position:relative;
     width:320px;
     height:310px;
     border: black solid 1px;
     float:right;
     margin-top: -280px;
     margin-right:-370px;
+}
+
+.ipadGuide, h2, h4 {
+   text-align: center;
+
+}
+.ipadGuide h2 {
+    color: #b8dc58;
+    font-size: 30pt;
+    font-weight:800;
+}
+.ipadGuide h4 {
+    font-size: 17pt;
+    margin-bottom: -40px;
+}
+
+#CSS{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    transform: scale(1.2);
+
+}
+
+#IpadMini {
+    position: absolute;
+    left: 120px;
+    bottom: -10px;
+}
+#IpadPro {
+    position: absolute;
+    left: 40px;
+    bottom: -20px;
 }
 
 #Mac {
