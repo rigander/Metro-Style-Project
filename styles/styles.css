@@ -10,14 +10,15 @@
     src: url("/fonts/Optima LT Regular.ttf");
 }
  body {
+     position: relative;
      font-family: "Segoe WP", sans-serif;
-     margin-left: 5%;
+     padding-left: 14%;
  }
 
 .top_menu{
     position: absolute;
     top:0;
-    left:0;
+    left:10%;
     height: 100px;
     width: 1300px;
     margin-left:2%;
@@ -371,7 +372,6 @@ aside {
     border-radius: 7px;
     font-size: 13pt;
     word-spacing: 1px;
-    letter-spacing: 0.3px;
 
 }
 
@@ -530,7 +530,7 @@ aside {
 
 }
 
-container a:hover {
+.container a:hover {
     text-decoration: underline;
 }
 a:active {
