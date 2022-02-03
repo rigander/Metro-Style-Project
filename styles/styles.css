@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
 @font-face {
     font-family: "Segoe WP", sans-serif;
     src: url("SegoeWP.ttf");
+    }
+
+@font-face {
+    font-family: "OptimaLT", sans-serif;
+    src: url("/fonts/Optima LT Regular.ttf");
 }
  body {
      font-family: "Segoe WP", sans-serif;
@@ -12,15 +19,18 @@
     position: absolute;
     top:10px;
     left:20px;
-    height: 100px;
-    width: 1400px;
-    background-color: #a5a5a5 ;
-    margin-left: 300px;
+    height: 130px;
+    width: 1670px;
+    margin-left:15%;
 }
 .metro-blog {
     height:100px;
     width:230px;
-}
+    position: absolute;
+    top: 30px;
+    left: 105px;
+
+  }
 .metro {
     float: left;
     font-family: "Trebuchet MS", serif;
@@ -45,6 +55,38 @@
     border-radius: 50%;
     opacity: 0.45;
 }
+nav{
+    position: absolute;
+    right:5%;
+    top:35%;
+    width:600px;
+    height:70px;
+    word-spacing:30px;
+}
+
+.buttons{
+    width:110px;
+    height:40px;
+    font-size:18pt;
+    background-color: white;
+    border: none;
+}
+
+.buttons:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.rule{
+    position: absolute;
+    top: 140px;
+    left:6%;
+    width:93%;
+    border-bottom: black 1px solid;
+
+}
 
 .apple {
     width:1300px;
@@ -54,6 +96,7 @@
 
 }
 .Reviews {
+    padding-left: 20px;
     width: 400px;
 }
 
@@ -65,14 +108,15 @@
 
 .apple h1 {
     font-size:49pt;
+    text-align: left;
 }
 
 .apple h2 {
-
     font-size: 40pt;
     font-weight:lighter;
     color:#373737;
     padding-top: 15px;
+    text-align: left;
 }
 .video {
     position: relative;
@@ -84,10 +128,11 @@
     text-align: center;
     padding-top: 1px;
     margin-top: -25px;
+    margin-left: 20px;
 }
 .Ipad {
     float:left;
-    margin-left: 500px;
+    margin-left: 670px;
     margin-top: -250px;
     transform: scale(1.2);
 
@@ -123,6 +168,57 @@
 .loremipsum span {
     color:transparent;
 }
+
+#arrow_left{
+    position: absolute;
+    right: 31px;
+    top:350px;
+    height: 40px;
+    width: 30px;
+    background-color: #989998;
+    border:none;
+    cursor: pointer;
+}
+
+#arrow_left:hover{
+    background-color: #b8dc58;
+}
+
+#arrow_right:hover{
+    background-color: #b8dc58;
+}
+
+#arrow_right:active {
+    background-color: #bb4465;
+}
+
+#arrow_left:active{
+    background-color: #bb4465;
+}
+
+#arrow_left img{
+    position: relative;
+    right: 2px;
+    bottom: -1px;
+}
+
+#arrow_right img{
+    position: relative;
+    right: -3px;
+    bottom: -1px;
+}
+
+#arrow_right{
+    position: absolute;
+    top:350px;
+    right:0;
+    height: 40px;
+    width: 30px;
+    background-color: #989998;
+    border:none;
+    cursor: pointer;
+}
+
 #label1 {
     font-size: 30pt;
 }
@@ -191,6 +287,11 @@
     color:white;
     text-decoration: none;
 }
+.wrapper2{
+    position: relative;
+    width:1400px;
+    height: 1100px;
+}
 
 .section {
     position: relative;
@@ -200,6 +301,162 @@
     column-count: 3;
     column-gap: 30px;
     padding-top: 50px;
+
+}
+
+aside {
+    width: 322px;
+    height: 800px;
+    position: absolute;
+    top: 110px;
+    right: 30px;
+}
+
+.week {
+    position: relative;
+    height: 320px;
+    width: 322px;
+    background-color: #86e7f0;
+}
+
+.weekly {
+    position: absolute;
+    left:95px;
+    top:-7%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #ef809f;
+    text-align: center;
+    color: white;
+    border: solid 5px white;
+}
+
+.twelve {
+    font-size: 60pt;
+    font-family:Raleway, sans-serif;
+}
+#weekend{
+    position: absolute;
+    top:55px;
+    left:35px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.week h3{
+    position: absolute;
+    top: 80px;
+    left:30px;
+    font-size: 30pt;
+    word-spacing: 5px;
+    color:white;
+    font-weight: 100;
+}
+
+.week p {
+    color:white;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    text-align: center;
+    font-size: 19pt;
+
+}
+
+.week button {
+    position: absolute;
+    bottom: 30px;
+    left: 23%;
+    height: 30px;
+    width: 180px;
+    color: white;
+    background-color: #58d1dc;
+    border: none;
+    border-radius: 7px;
+    font-size: 13pt;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+
+}
+
+.week button:hover {
+    cursor: pointer;
+    border: #595959 solid 2px;
+}
+.week button:active{
+    background-color: #bb4465;
+}
+
+.join {
+    position: relative;
+    height: 320px;
+    width: 322px;
+    border: black solid 1px;
+    margin-top: 70px;
+    background-color: #393a39;
+    color:white;
+}
+
+.mailing {
+    text-align: center;
+    position: relative;
+    top:30px;
+    font-size: 20pt;
+}
+.join p {
+    text-align: left;
+    width: 270px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.name {
+    position: relative;
+    left: 30px;
+    width:78%;
+    height: 20px;
+    border: none;
+}
+
+.email {
+    position: relative;
+    left: 30px;
+    width:78%;
+    height: 20px;
+    margin-top: 15px;
+    border: none;
+    }
+
+.join button {
+    position: relative;
+    width:190px;
+    height: 30px;
+    left: 60px;
+    margin-top: 30px;
+    background-color: #bb4465;
+    color: white;
+    font-size: 13pt;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.join button:hover{
+      border: 2px bisque solid;
+}
+
+.join button:active{
+    background-color: rosybrown;
+    color: black;
+}
+
+.line {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    background-color: #bb4465;
 
 }
 
@@ -231,17 +488,15 @@
 .container {
     position:relative;
     bottom:0;
-    min-height: 80px;
-    max-height:150px;
+    height: 120px;
     width:1400px;
     background: #393a39;
     color:white;
     font-size: 16pt;
-    margin-top: -40px;
+    margin-top: 50px;
 
 
 }
-
 
 
 #rights {
@@ -271,11 +526,16 @@
 .icons {
     position: absolute;
     top:33%;
-    right:12%;
-    letter-spacing: 13px;
+    right:9%;
+    word-spacing: 18px;
 }
 
-a:hover {
+.icons a{
+    display:inline-block;
+
+}
+
+container a:hover {
     text-decoration: underline;
 }
 a:active {
