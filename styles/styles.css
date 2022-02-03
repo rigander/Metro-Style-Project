@@ -11,17 +11,16 @@
 }
  body {
      font-family: "Segoe WP", sans-serif;
-     margin-left:20%;
-     margin-right:20%;
+     margin-left: 5%;
  }
 
 .top_menu{
     position: absolute;
-    top:10px;
-    left:20px;
-    height: 130px;
-    width: 1670px;
-    margin-left:15%;
+    top:0;
+    left:0;
+    height: 100px;
+    width: 1300px;
+    margin-left:2%;
 }
 .metro-blog {
     height:100px;
@@ -81,15 +80,14 @@ nav{
 
 .rule{
     position: absolute;
-    top: 140px;
+    top: 110px;
     left:6%;
-    width:93%;
+    width:100%;
     border-bottom: black 1px solid;
 
 }
 
 .apple {
-    width:1300px;
     height:400px;
     float: left;
     margin-top: 300px;
@@ -132,11 +130,8 @@ nav{
 }
 .Ipad {
     float:left;
-    margin-left: 670px;
+    margin-left: 570px;
     margin-top: -250px;
-    transform: scale(1.2);
-
-
 
 }
 
@@ -489,7 +484,7 @@ aside {
     position:relative;
     bottom:0;
     height: 120px;
-    width:1400px;
+    width:1370px;
     background: #393a39;
     color:white;
     font-size: 16pt;
