@@ -12,39 +12,36 @@
  body {
      position: relative;
      font-family: "Segoe WP", sans-serif;
-     padding-left: 14%;
+     padding-left: 23%;
  }
-
 .top_menu{
     position: absolute;
     top:0;
-    left:10%;
+    left:16%;
     height: 100px;
     width: 1300px;
-    margin-left:2%;
+    margin-left:45px;
 }
 .metro-blog {
     height:100px;
     width:230px;
     position: absolute;
-    top: 30px;
-    left: 105px;
+    top: 27px;
+    left: 115px;
 
-  }
+}
 .metro {
     float: left;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     color: #595959;
 }
-
 .blog {
     float: right;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     font-weight: 600;
 }
-
 .round{
     position: absolute;
     width:30px;
@@ -57,226 +54,210 @@
 }
 nav{
     position: absolute;
-    right:5%;
-    top:35%;
+    right:40px;
+    top:42px;
     width:600px;
     height:70px;
-    word-spacing:30px;
+    word-spacing:32px;
 }
-
 .buttons{
-    width:110px;
-    height:40px;
-    font-size:18pt;
+    width:100px;
+    height:38px;
+    font-size:16pt;
     background-color: white;
     border: none;
 }
-
 .buttons:hover{
     background-color: black;
     color: white;
     cursor: pointer;
-
 }
-
+#about{
+    margin-left: -5px;
+}
+#articles{
+    margin-left: -7px;
+}
+#pages{
+    margin-left: -12px;
+}
 .rule{
     position: absolute;
     top: 110px;
     left:6%;
-    width:100%;
-    border-bottom: black 1px solid;
-
+    width:85%;
+    border-bottom: #e5e5e5 1px solid;
 }
-
 .apple {
     height:400px;
     float: left;
     margin-top: 300px;
-
 }
 .Reviews {
     padding-left: 20px;
+    margin-top: -83px;
     width: 400px;
 }
-
-.apple h1 {
+.apple h3 {
     height:25px;
-    font-weight:200;
+    font-weight:100;
+    font-size: 44pt;
     color: #373737;
 }
-
-.apple h1 {
-    font-size:49pt;
-    text-align: left;
-}
-
-.apple h2 {
-    font-size: 40pt;
-    font-weight:lighter;
+.apple h4 {
+    font-size: 33pt;
+    font-weight:500;
     color:#373737;
-    padding-top: 15px;
+    margin-top: -12px;
     text-align: left;
 }
 .video {
     position: relative;
-    width:220px;
-    height:38px;
+    width:203px;
+    height:39px;
     background:#373737;
     font-size: 18pt;
     color: white;
     text-align: center;
-    padding-top: 1px;
-    margin-top: -25px;
+    margin-top: -39px;
     margin-left: 20px;
 }
 .Ipad {
     float:left;
-    margin-left: 570px;
-    margin-top: -250px;
-
+    margin-left: 358px;
+    margin-top: -236px;
 }
-
 .wrapper{
     position: relative;
     float: left;
     width:1000px;
     height:350px;
-    padding-top: 100px;
+    margin-top: -48px;
 }
 .shapes {
-    width: 450px;
-    height: 310px;
-    word-spacing: 15px;
+    width: 307px;
+    height: 240px;
     float:left;
     background: radial-gradient(#e4e4e4, #a5a5a5);
 }
+.shapes img {
+    position: relative;
+    top:71px;
+    left:42px;
+}
+#Mac{
+    margin-left: -27px;
+    margin-top: -2px;
+}
+#iphone{
+    margin-top:-5px;
+}
 .loremipsum {
-
     column-count: 1;
-    width:460px;
+    width:321px;
     text-align: left;
     word-wrap: break-word;
-    font-size: 14pt;
-    word-spacing: 1px;
-    padding-left: 40px;
-    margin-top: -15px;
+    font-size: 10pt;
+    padding-left:27px;
+    margin-top:-10px;
 }
-.loremipsum span {
+.loremipsum p span{
     color:transparent;
 }
-
+#label1 {
+    font-size: 20pt;
+}
+#Reserved{
+    font-size: 20pt;
+    text-decoration: none;
+    color:black;
+}
+.loremipsum p{
+    margin-top:6px;
+}
 #arrow_left{
-    position: absolute;
-    right: 31px;
-    top:350px;
-    height: 40px;
-    width: 30px;
-    background-color: #989998;
+    position: relative;
+    top:18px;
+    left:278px;
+    height:39px;
+    width:31px;
+    background-color: #7c7d7c;
     border:none;
     cursor: pointer;
 }
-
+#arrow_right{
+    position: relative;
+    top:18px;
+    left:274px;
+    height:39px;
+    width:31px;
+    background-color: #989998;
+    border:none;
+    cursor:pointer;
+}
 #arrow_left:hover{
     background-color: #b8dc58;
 }
-
 #arrow_right:hover{
     background-color: #b8dc58;
 }
-
 #arrow_right:active {
     background-color: #bb4465;
 }
-
 #arrow_left:active{
     background-color: #bb4465;
 }
-
 #arrow_left img{
     position: relative;
     right: 2px;
     bottom: -1px;
 }
-
 #arrow_right img{
     position: relative;
     right: -3px;
     bottom: -1px;
 }
-
-#arrow_right{
-    position: absolute;
-    top:350px;
-    right:0;
-    height: 40px;
-    width: 30px;
-    background-color: #989998;
-    border:none;
-    cursor: pointer;
-}
-
-#label1 {
-    font-size: 30pt;
-}
-.shapes img {
-    position: relative;
-    top:120px;
-    left:90px;
-    transform: scale(1.3);
-}
-
 .ipadGuide {
-    position:relative;
+    position:absolute;
+    right:353px;
+    top:280px;
     width:320px;
-    height:310px;
+    height:250px;
     border: black solid 1px;
-    float:right;
     margin-top: -280px;
     margin-right:-370px;
 }
-
 .ipadGuide, h2, h4 {
    text-align: center;
-
 }
-.ipadGuide h2 {
-    color: #b8dc58;
-    font-size: 30pt;
+.ipadGuide h2{
+    color:#b8dc58;
+    font-size:30pt;
     font-weight:800;
+    margin-top:-26px;
 }
-.ipadGuide h4 {
-    font-size: 17pt;
-    margin-bottom: -40px;
+#ultimate_apple{
+    margin-top:14px;
+    color:#9ba08d;
 }
-
 #CSS{
     position: absolute;
-    right: 40px;
-    bottom: 20px;
-    transform: scale(1.2);
-
+    right:46px;
+    bottom:11px;
 }
-
 #IpadMini {
     position: absolute;
-    left: 120px;
-    bottom: -10px;
+    left:117px;
+    bottom:-19px;
 }
 #IpadPro {
     position: absolute;
-    left: 40px;
-    bottom: -20px;
+    left:37px;
+    bottom:-30px;
 }
-
 #Mac {
     padding-left: 40px;
 }
-#Reserved {
-    font-size: 30pt;
-    text-decoration: none;
-    color:black;
-}
-
 .vr2 {
 
     font-size: 18pt;
@@ -285,21 +266,38 @@ nav{
 }
 .wrapper2{
     position: relative;
-    width:1400px;
-    height: 1100px;
+    width:1050px;
+    height: 836px;
 }
-
-.section {
-    position: relative;
-    width:1000px;
-    height:1100px;
+.section{
+    position:relative;
+    width:675px;
+    height:730px;
     background-color: white;
     column-count: 3;
-    column-gap: 30px;
     padding-top: 50px;
-
 }
-
+.post-1{
+    font-size:10pt;
+    color:black;
+    font-weight:300;
+    text-align:justify;
+    margin-top:9px;
+    margin-bottom:44px;
+    line-height: 20px;
+}
+.post_header{
+    font-size:18pt;
+    font-weight:400;
+}
+.small_header{
+    padding-top:4px;
+    font-size: 10pt;
+    padding-left: 2px;
+}
+.small_header span {
+    padding-left: 19px;
+}
 aside {
     width: 322px;
     height: 800px;
@@ -307,14 +305,13 @@ aside {
     top: 110px;
     right: 30px;
 }
-
 .week {
     position: relative;
-    height: 320px;
-    width: 322px;
+    top:-40px;
+    height:270px;
+    width:318px;
     background-color: #86e7f0;
 }
-
 .weekly {
     position: absolute;
     left:95px;
@@ -327,7 +324,6 @@ aside {
     color: white;
     border: solid 5px white;
 }
-
 .twelve {
     font-size: 60pt;
     font-family:Raleway, sans-serif;
@@ -339,30 +335,26 @@ aside {
     text-align: center;
     font-size: 16pt;
 }
-
 .week h3{
     position: absolute;
-    top: 80px;
+    top: 70px;
     left:30px;
-    font-size: 30pt;
-    word-spacing: 5px;
+    font-size:30pt;
+    word-spacing:5px;
     color:white;
-    font-weight: 100;
+    font-weight:100;
 }
-
 .week p {
     color:white;
     position: absolute;
-    bottom: 50px;
+    bottom:20px;
     left: 0;
     text-align: center;
     font-size: 19pt;
-
 }
-
 .week button {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 23%;
     height: 30px;
     width: 180px;
@@ -372,9 +364,7 @@ aside {
     border-radius: 7px;
     font-size: 13pt;
     word-spacing: 1px;
-
 }
-
 .week button:hover {
     cursor: pointer;
     border: #595959 solid 2px;
@@ -382,30 +372,27 @@ aside {
 .week button:active{
     background-color: #bb4465;
 }
-
 .join {
     position: relative;
-    height: 320px;
-    width: 322px;
+    height:270px;
+    width:318px;
     border: black solid 1px;
-    margin-top: 70px;
+    margin-top:-15px;
     background-color: #393a39;
     color:white;
 }
-
 .mailing {
     text-align: center;
     position: relative;
-    top:30px;
+    top:20px;
     font-size: 20pt;
 }
 .join p {
     text-align: left;
     width: 270px;
     padding-left: 30px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
-
 .name {
     position: relative;
     left: 30px;
@@ -413,7 +400,6 @@ aside {
     height: 20px;
     border: none;
 }
-
 .email {
     position: relative;
     left: 30px;
@@ -422,13 +408,12 @@ aside {
     margin-top: 15px;
     border: none;
     }
-
 .join button {
     position: relative;
+    bottom:-17px;
     width:190px;
     height: 30px;
     left: 60px;
-    margin-top: 30px;
     background-color: #bb4465;
     color: white;
     font-size: 13pt;
@@ -436,75 +421,39 @@ aside {
     cursor: pointer;
     border-radius: 7px;
 }
-
 .join button:hover{
       border: 2px bisque solid;
 }
-
 .join button:active{
     background-color: rosybrown;
     color: black;
 }
-
 .line {
     position:absolute;
     bottom: 0;
     width: 100%;
     height: 3%;
     background-color: #bb4465;
-
 }
-
-.post-1 {
-    font-size: 14pt;
-    color:black;
-    font-weight: 300;
-    text-align: justify;
-    padding-bottom:30px;
-    word-spacing: 3px ;
-}
-
-.post_header {
-    font-size:26pt;
-    font-weight: 400;
-}
-.small_header {
-    padding-top: 10px;
-    word-spacing: 2px;
-    font-size: 14pt;
-    padding-left: 2px;
-}
-
-.small_header span {
-    padding-left: 19px;
-}
-
-
 .container {
     position:relative;
+    right:24%;
     bottom:0;
-    height: 120px;
-    width:1370px;
+    height:87px;
+    width:1498px;
     background: #393a39;
     color:white;
-    font-size: 16pt;
-    margin-top: 50px;
-
-
 }
-
-
 #rights {
     color:white;
     text-decoration: none;
-    font-size:16pt;
+    font-size:12pt;
 }
-
 .link {
     position: absolute;
     top:28%;
-    left:38%;
-    font-size:16pt;
+    left:40.3%;
+    font-size:12pt;
 }
 @media (max-width: 1000px){
     .link {
@@ -521,15 +470,12 @@ aside {
 .icons {
     position: absolute;
     top:33%;
-    right:9%;
-    word-spacing: 18px;
+    right:13.5%;
+    word-spacing: 10px;
 }
-
 .icons a{
     display:inline-block;
-
 }
-
 .container a:hover {
     text-decoration: underline;
 }
