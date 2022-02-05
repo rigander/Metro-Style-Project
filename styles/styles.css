@@ -295,9 +295,10 @@ nav{
     font-size: 10pt;
     padding-left: 2px;
 }
-.small_header span {
-    padding-left: 19px;
+.small_header span{
+    padding-left: 10px;
 }
+
 aside {
     width: 322px;
     height: 800px;
