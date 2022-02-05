@@ -273,11 +273,12 @@ nav{
 .wrapper2{
     position: relative;
     width:1050px;
-    height: 836px;
+    height: 777px;
     margin-top: 20px;
 }
 .section{
     position:relative;
+    margin-top: 50px;
     width:675px;
     height:800px;
     background-color: white;
@@ -309,7 +310,7 @@ aside {
     width: 322px;
     height: 800px;
     position: absolute;
-    top: 110px;
+    top: 55px;
     right: 30px;
 }
 .week {
