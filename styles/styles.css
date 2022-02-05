@@ -36,12 +36,6 @@
     font-size: 37pt;
     color: #595959;
 }
-.blog {
-    float: left;
-    font-family: "Trebuchet MS", serif;
-    font-size: 37pt;
-    font-weight: 600;
-}
 .round{
     float: left;
     margin-top: 18px;
@@ -50,6 +44,12 @@
     background: #6dd025;
     border-radius: 50%;
     opacity: 0.45;
+}
+.blog {
+    float: left;
+    font-family: "Trebuchet MS", serif;
+    font-size: 37pt;
+    font-weight: 600;
 }
 nav{
     position: absolute;
