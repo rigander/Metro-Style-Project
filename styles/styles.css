@@ -22,14 +22,14 @@
     width: 1300px;
     margin-left:45px;
 }
-.metro-blog {
+.metro-blog{
     height:50px;
-    width:230px;
+    width:270px;
     position: absolute;
     top: 27px;
     left: 115px;
 }
-.metro {
+.metro{
     float: left;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
@@ -45,7 +45,7 @@
     opacity: 0.45;
 }
 .blog {
-    float: left;
+    float: right;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     font-weight: 600;
