@@ -36,8 +36,8 @@
     color: #595959;
 }
 .round{
-    position:absolute;
-    bottom: 1px;
+    float: left;
+    margin-top:18px;
     width:30px;
     height:30px;
     background: #6dd025;
