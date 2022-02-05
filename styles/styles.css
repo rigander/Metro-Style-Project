@@ -37,17 +37,16 @@
     color: #595959;
 }
 .blog {
-    float: right;
+    float: left;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     font-weight: 600;
 }
 .round{
-    position: absolute;
+    float: left;
+    margin-top: 18px;
     width:30px;
     height:30px;
-    top:20px;
-    left:100px;
     background: #6dd025;
     border-radius: 50%;
     opacity: 0.45;
