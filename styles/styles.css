@@ -125,12 +125,12 @@ nav{
 .vr{
     position: absolute;
     left:15px;
-    bottom: 4px;
+    bottom: 2px;
 }
 .vr2 {
     position: absolute;
     left: 55px;
-    bottom: 6px;
+    bottom: 4px;
     font-size: 18pt;
     color:white;
     text-decoration: none;
