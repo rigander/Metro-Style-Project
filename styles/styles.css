@@ -36,7 +36,8 @@
     color: #595959;
 }
 .round{
-    float: left;
+    position:absolute;
+    bottom: 1px;
     width:30px;
     height:30px;
     background: #6dd025;
