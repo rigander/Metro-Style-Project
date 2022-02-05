@@ -296,7 +296,7 @@ nav{
     padding-left: 2px;
 }
 .small_header span{
-    padding-left: 10px;
+    padding-left:0;
 }
 
 aside {
