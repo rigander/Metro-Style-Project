@@ -11,7 +11,7 @@
 }
  body {
      font-family: "Segoe WP", sans-serif;
-     margin-left: 20%;
+     margin-left: 21%;
      margin-right: 20%;
  }
 .top_menu{
@@ -20,12 +20,11 @@
     width: 1300px;
 }
 .metro-blog{
-    position: absolute;
-    margin-left: 13%;
+    position: relative;
     height: 50px;
     width: 250px;
     top: 27px;
-    left: 170px;
+    left: 17px;
 }
 .metro_round{
     width: 140px;
@@ -53,7 +52,7 @@
     font-weight: 600;
 }
 nav{
-    margin-top: 37px;
+    margin-top:-10px;
     margin-right:140px;
     float: right;
     width:600px;
@@ -82,10 +81,9 @@ nav{
     margin-left: -12px;
 }
 .rule{
-    position: absolute;
-    margin-left: 14%;
-    top: 110px;
-    left:6%;
+    position: relative;
+    margin-left:0;
+    top: 70px;
     width: 1030px;
     border-bottom: #e5e5e5 1px solid;
 }
