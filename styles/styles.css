@@ -122,6 +122,15 @@ nav{
     margin-top: -39px;
     margin-left: 20px;
 }
+.vr{
+    padding-top: 8px;
+}
+.vr2 {
+    font-size: 18pt;
+    color:white;
+    text-decoration: none;
+    padding-top:8px;
+}
 .Ipad {
     float:left;
     margin-left: 358px;
@@ -257,12 +266,6 @@ nav{
 }
 #Mac {
     padding-left: 40px;
-}
-.vr2 {
-
-    font-size: 18pt;
-    color:white;
-    text-decoration: none;
 }
 .wrapper2{
     position: relative;
