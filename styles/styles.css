@@ -131,7 +131,7 @@ nav{
     position: relative;
     float: left;
     width:1000px;
-    height:350px;
+    height:250px;
     margin-top: -48px;
 }
 .shapes {
@@ -155,11 +155,11 @@ nav{
 .loremipsum {
     column-count: 1;
     width:321px;
+    height:240px;
     text-align: left;
     word-wrap: break-word;
     font-size: 10pt;
     padding-left:27px;
-    margin-top:-10px;
 }
 .loremipsum p span{
     color:transparent;
@@ -176,9 +176,9 @@ nav{
     margin-top:6px;
 }
 #arrow_left{
-    position: relative;
-    top:18px;
-    left:278px;
+    position:absolute;
+    bottom:10px;
+    right:350px;
     height:39px;
     width:31px;
     background-color: #7c7d7c;
@@ -186,9 +186,9 @@ nav{
     cursor: pointer;
 }
 #arrow_right{
-    position: relative;
-    top:18px;
-    left:274px;
+    position:absolute;
+    bottom:10px;
+    right:320px;
     height:39px;
     width:31px;
     background-color: #989998;
@@ -268,14 +268,14 @@ nav{
     position: relative;
     width:1050px;
     height: 836px;
+    margin-top: 20px;
 }
 .section{
     position:relative;
     width:675px;
-    height:730px;
+    height:800px;
     background-color: white;
-    column-count: 3;
-    padding-top: 50px;
+    column-count:3;
 }
 .post-1{
     font-size:10pt;
