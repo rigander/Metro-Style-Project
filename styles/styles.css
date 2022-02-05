@@ -10,24 +10,21 @@
     src: url("/fonts/Optima LT Regular.ttf");
 }
  body {
-     position: relative;
      font-family: "Segoe WP", sans-serif;
-     padding-left: 23%;
+     padding-left: 10%;
+     padding-right: 10%;
  }
 .top_menu{
-    position: absolute;
-    top:0;
-    left:16%;
+    float: left;
     height: 100px;
     width: 1300px;
-    margin-left:45px;
 }
 .metro-blog{
-    height:50px;
-    width:230px;
     position: absolute;
+    height: 50px;
+    width: 250px;
     top: 27px;
-    left: 115px;
+    left: 170px;
 }
 .metro{
     float: left;
@@ -51,9 +48,9 @@
     font-weight: 600;
 }
 nav{
-    position: absolute;
-    right:40px;
-    top:42px;
+    margin-top: 37px;
+    margin-right:140px;
+    float: right;
     width:600px;
     height:70px;
     word-spacing:32px;
@@ -89,7 +86,7 @@ nav{
 .apple {
     height:400px;
     float: left;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 .Reviews {
     padding-left: 20px;
