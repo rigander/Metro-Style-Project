@@ -123,13 +123,17 @@ nav{
     margin-left: 20px;
 }
 .vr{
-    padding-top: 8px;
+    position: absolute;
+    left:15px;
+    bottom: 4px;
 }
 .vr2 {
+    position: absolute;
+    left: 55px;
+    bottom: 6px;
     font-size: 18pt;
     color:white;
     text-decoration: none;
-    padding-top:8px;
 }
 .Ipad {
     float:left;
