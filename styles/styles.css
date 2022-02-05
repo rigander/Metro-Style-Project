@@ -11,8 +11,8 @@
 }
  body {
      font-family: "Segoe WP", sans-serif;
-     padding-left: 10%;
-     padding-right: 10%;
+     margin-left: 20%;
+     margin-right: 20%;
  }
 .top_menu{
     float: left;
@@ -21,6 +21,7 @@
 }
 .metro-blog{
     position: absolute;
+    margin-left: 13%;
     height: 50px;
     width: 400px;
     top: 27px;
@@ -84,9 +85,10 @@ nav{
 }
 .rule{
     position: absolute;
+    margin-left: 14%;
     top: 110px;
     left:6%;
-    width:85%;
+    width: 1030px;
     border-bottom: #e5e5e5 1px solid;
 }
 .apple {
