@@ -24,7 +24,7 @@
 }
 .metro-blog{
     height:50px;
-    width:270px;
+    width:230px;
     position: absolute;
     top: 27px;
     left: 115px;
@@ -36,8 +36,9 @@
     color: #595959;
 }
 .round{
-    float: left;
+    display: block;
     margin-top: 18px;
+    float: left;
     width:30px;
     height:30px;
     background: #6dd025;
