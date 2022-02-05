@@ -100,13 +100,13 @@ nav{
 }
 .apple h3 {
     height:25px;
-    font-weight:100;
+    font-weight:400;
     font-size: 44pt;
     color: #373737;
 }
 .apple h4 {
     font-size: 33pt;
-    font-weight:500;
+    font-weight:400;
     color:#373737;
     margin-top: -12px;
     text-align: left;
@@ -436,11 +436,9 @@ aside {
     background-color: #bb4465;
 }
 .container {
-    position:relative;
-    right:24%;
-    bottom:0;
+    position: relative;
     height:87px;
-    width:1498px;
+    width:110%;
     background: #393a39;
     color:white;
 }
@@ -452,13 +450,13 @@ aside {
 .link {
     position: absolute;
     top:28%;
-    left:40.3%;
+    left:33%;
     font-size:12pt;
 }
 .icons {
     position: absolute;
     top:33%;
-    right:13.5%;
+    right:4%;
     word-spacing: 10px;
 }
 .icons a{
