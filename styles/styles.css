@@ -23,18 +23,16 @@
     position: absolute;
     margin-left: 13%;
     height: 50px;
-    width: 400px;
+    width: 250px;
     top: 27px;
     left: 170px;
 }
 .metro_round{
-    width: 130px;
+    width: 140px;
     height: 50px;
     float: left;
 }
-
 .metro{
-
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     color: #595959;
@@ -49,7 +47,7 @@
     opacity: 0.45;
 }
 .blog {
-    float: left;
+    float: right;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     font-weight: 600;
