@@ -455,18 +455,6 @@ aside {
     left:40.3%;
     font-size:12pt;
 }
-@media (max-width: 1000px){
-    .link {
-        position: absolute;
-        left:5%;
-        top:28%;
-    }
-}
-@media (max-width: 600px){
-    .link {
-        width:50%;
-    }
-}
 .icons {
     position: absolute;
     top:33%;
