@@ -176,14 +176,12 @@ nav{
 .loremipsum p span{
     color:transparent;
 }
-#label1{
+.reserved label,a{
     font-size: 20pt;
-}
-#reserved, .reserved{
-    font-size: 20pt;
-    text-decoration: none;
     color:black;
+    text-decoration: none;
 }
+
 .loremipsum p{
     margin-top:6px;
 }
