@@ -21,8 +21,9 @@
 }
 .metro_round{
     position: relative;
-    top: 27px;
+    top: 30px;
     left: 17px;
+    width:300px;
 }
 .metro{
     font-family: "Trebuchet MS", serif;
