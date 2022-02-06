@@ -93,22 +93,21 @@ nav{
     margin-top: 200px;
 }
 .Reviews {
+    margin-top: -70px;
     padding-left: 20px;
-    margin-top: -83px;
     width: 400px;
 }
-.apple h3 {
-    height:25px;
+.apple h1 {
     font-weight:200;
     font-size: 44pt;
     color: #373737;
 }
-.apple h4 {
+.apple h2 {
     font-size: 33pt;
     font-weight:200;
     color:#373737;
-    margin-top: -12px;
     text-align: left;
+    margin-top: -35px;
 }
 .video {
     position: relative;
@@ -118,7 +117,7 @@ nav{
     font-size: 18pt;
     color: white;
     text-align: center;
-    margin-top: -39px;
+    margin-top: -19px;
     margin-left: 20px;
 }
 .vr{
@@ -176,7 +175,13 @@ nav{
 .loremipsum p span{
     color:transparent;
 }
-.reserved label,a{
+.reserved label{
+    font-size: 20pt;
+    color:black;
+    text-decoration: none;
+}
+
+.reserved a{
     font-size: 20pt;
     color:black;
     text-decoration: none;
@@ -282,28 +287,28 @@ nav{
     background-color: white;
     column-count:3;
 }
+.posts1{
+    margin-top: 10px;
+}
 .post-1{
     font-size:10pt;
     color:black;
     font-weight:300;
     text-align:justify;
     margin-top:9px;
-    margin-bottom:44px;
+    margin-bottom:24px;
     line-height: 20px;
 }
 .post_header{
+    margin-top: -10px;
     font-size:18pt;
     font-weight:400;
 }
 .small_header{
-    padding-top:4px;
+    text-align: left;
+    margin-top: -15px;
     font-size: 10pt;
-    padding-left: 2px;
 }
-.small_header span{
-    padding-left:0;
-}
-
 aside {
     width: 322px;
     height: 800px;
@@ -448,16 +453,16 @@ aside {
     background: #393a39;
     color:white;
 }
-#rights {
-    color:white;
-    text-decoration: none;
-    font-size:12pt;
-}
 .link {
     position: absolute;
     top:28%;
     left:33%;
     font-size:12pt;
+}
+.link label,a{
+    color:white;
+    font-size: 12pt;
+    text-decoration: none;
 }
 .icons {
     position: absolute;
