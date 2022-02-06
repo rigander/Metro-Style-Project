@@ -116,12 +116,12 @@ nav{
 .vr{
     position: absolute;
     left:15px;
-    bottom: 2px;
+    bottom: 6px;
 }
 .vr2 {
     position: absolute;
     left: 55px;
-    bottom: 4px;
+    bottom: 5px;
     font-size: 18pt;
     color:white;
     text-decoration: none;
@@ -282,6 +282,15 @@ nav{
 }
 .posts1{
     margin-top: 10px;
+}
+.posts1 h4 span{
+    margin-left: 14px;
+}
+.posts2 h4 span{
+    margin-left: 15px;
+}
+.posts3 h4 span{
+    margin-left: 15px;
 }
 .post-1{
     font-size:10pt;
