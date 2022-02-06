@@ -179,7 +179,7 @@ nav{
 #label1{
     font-size: 20pt;
 }
-#reserved{
+#reserved, .reserved{
     font-size: 20pt;
     text-decoration: none;
     color:black;
