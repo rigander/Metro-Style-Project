@@ -22,14 +22,9 @@
 .metro-blog{
     position: relative;
     height: 50px;
-    width: 250px;
+    width: 240px;
     top: 27px;
     left: 17px;
-}
-.metro_round{
-    width: 140px;
-    height: 50px;
-    float: left;
 }
 .metro{
     font-family: "Trebuchet MS", serif;
@@ -37,8 +32,7 @@
     color: #595959;
 }
 .round{
-    float:right;
-    margin-top: -40px;
+    display: inline-block;
     width:30px;
     height:30px;
     background: #6dd025;
@@ -46,7 +40,7 @@
     opacity: 0.45;
 }
 .blog {
-    float: right;
+    display: inline;
     font-family: "Trebuchet MS", serif;
     font-size: 37pt;
     font-weight: 600;
