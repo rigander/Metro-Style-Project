@@ -5,7 +5,7 @@
 @font-face {
     src: url("/fonts/Optima LT Regular.ttf");
 }
- body {
+ body{
      font-family: "Segoe WP", sans-serif;
      margin-left: 21%;
      margin-right: 20%;
@@ -14,16 +14,17 @@
     float: left;
     height: 100px;
     width: 1300px;
+    border-bottom: #a5a5a5 solid 2px;
 }
 .metro_round{
     position: relative;
-    top: 30px;
+    top: 15px;
     left: 17px;
     width:300px;
 }
 .metro{
     font-family: "Trebuchet MS", serif;
-    font-size: 37pt;
+    font-size: 50px;
     color: #595959;
 }
 .round{
@@ -34,28 +35,33 @@
     border-radius: 50%;
     opacity: 0.45;
 }
-.blog {
-    display: inline;
+.blog{
     font-family: "Trebuchet MS", serif;
-    font-size: 37pt;
+    font-size: 50px;
     font-weight: 600;
 }
 nav{
-    margin-top:-10px;
-    margin-right:140px;
+    margin-top:-40px;
+    margin-right:190px;
     float: right;
-    width:600px;
+    width:470px;
     height:70px;
-    word-spacing:32px;
+    word-spacing:40px;
+    }
+nav ul li{
+    display: inline-block;
+    width:80px;
 }
-.buttons{
-    width:100px;
-    height:38px;
-    font-size:16pt;
-    background-color: white;
-    border: none;
+nav ul li a{
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
 }
-.buttons:hover{
+nav ul li a:hover{
+    display: inline-block;
+    height: 35px;
+    width: 75px;
     background-color: black;
     color: white;
     cursor: pointer;
@@ -69,72 +75,47 @@ nav{
 #pages{
     margin-left: -12px;
 }
-.rule{
-    position: relative;
-    margin-left:0;
-    top: 70px;
-    width: 1030px;
-    border-bottom: #e5e5e5 1px solid;
-}
-.apple {
+.apple{
     height:400px;
     float: left;
-    margin-top: 200px;
-}
-.Reviews {
-    margin-top: -70px;
-    padding-left: 20px;
-    width: 400px;
+    margin-top: 120px;
 }
 .apple h1 {
     font-weight:200;
-    font-size: 44pt;
+    font-size: 59px;
     color: #373737;
 }
 .apple h2 {
-    font-size: 33pt;
+    font-size: 44px;
     font-weight:200;
     color:#373737;
     text-align: left;
     margin-top: -35px;
 }
-.video {
-    position: relative;
+.video{
     width:203px;
     height:39px;
     background:#373737;
-    font-size: 18pt;
-    color: white;
     text-align: center;
     margin-top: -19px;
     margin-left: 20px;
 }
-.vr{
-    position: absolute;
-    left:15px;
-    bottom: 6px;
+.video a{
+    font-size: 23px;
 }
-.vr2 {
-    position: absolute;
-    left: 55px;
-    bottom: 5px;
-    font-size: 18pt;
-    color:white;
-    text-decoration: none;
+.video a img{
+    padding-right: 7px;
 }
-.Ipad {
+.ipad{
     float:left;
     margin-left: 358px;
     margin-top: -236px;
 }
 .wrapper{
-    position: relative;
-    float: left;
-    width:1000px;
+    width:1200px;
     height:250px;
-    margin-top: -48px;
 }
-.shapes {
+.shapes{
     width: 307px;
     height: 240px;
     float:left;
@@ -145,43 +126,47 @@ nav{
     top:71px;
     left:42px;
 }
-#Mac{
+#mac{
     margin-left: -27px;
     margin-top: -2px;
 }
 #iphone{
     margin-top:-5px;
 }
-.loremipsum {
+.lorem_ipsum{
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    padding-left: 25px;
+}
+.lorem_ipsum p{
     column-count: 1;
     width:321px;
     height:240px;
     text-align: left;
     word-wrap: break-word;
-    font-size: 10pt;
-    padding-left:27px;
+    font-size: 13px;
+    margin-top: 6px;
 }
-.loremipsum p span{
+.lorem_ipsum p span{
     color:transparent;
 }
-.reserved label{
-    font-size: 20pt;
+.lorem_ipsum h3{
+    font-size: 27px;
     color:black;
     text-decoration: none;
+    font-weight: 400;
+    margin: 0;
 }
-
-.reserved a{
-    font-size: 20pt;
+.lorem_ipsum a{
+    font-size: 27px;
     color:black;
     text-decoration: none;
-}
-.loremipsum p{
-    margin-top:6px;
 }
 #arrow_left{
     position:absolute;
-    bottom:10px;
-    right:350px;
+    bottom:88px;
+    right:40px;
     height:39px;
     width:31px;
     background-color: #7c7d7c;
@@ -190,8 +175,8 @@ nav{
 }
 #arrow_right{
     position:absolute;
-    bottom:10px;
-    right:320px;
+    bottom:88px;
+    right:10px;
     height:39px;
     width:31px;
     background-color: #989998;
@@ -210,32 +195,20 @@ nav{
 #arrow_left:active{
     background-color: #bb4465;
 }
-#arrow_left img{
+.ipad_guide{
+    float: right;
     position: relative;
-    right: 2px;
-    bottom: -1px;
-}
-#arrow_right img{
-    position: relative;
-    right: -3px;
-    bottom: -1px;
-}
-.ipadGuide {
-    position:absolute;
-    right:353px;
-    top:280px;
+    right:185px;
     width:320px;
     height:250px;
     border: black solid 1px;
-    margin-top: -280px;
-    margin-right:-370px;
 }
-.ipadGuide, h2, h4 {
+.ipad_guide, h2, h4 {
    text-align: center;
 }
-.ipadGuide h2{
+.ipad_guide h2{
     color:#b8dc58;
-    font-size:30pt;
+    font-size:40px;
     font-weight:800;
     margin-top:-26px;
 }
@@ -243,29 +216,29 @@ nav{
     margin-top:14px;
     color:#9ba08d;
 }
-#CSS{
+#css{
     position: absolute;
     right:46px;
     bottom:11px;
 }
-#IpadMini {
+#ipad_mini{
     position: absolute;
     left:117px;
     bottom:-19px;
 }
-#IpadPro {
+#ipad_pro{
     position: absolute;
     left:37px;
     bottom:-30px;
 }
-#Mac {
+#mac{
     padding-left: 40px;
 }
 .wrapper2{
     position: relative;
     width:1050px;
     height: 777px;
-    margin-top: 20px;
+    margin-top: -100px;
 }
 .section{
     position:relative;
@@ -287,8 +260,8 @@ nav{
 .posts3 h4 span{
     margin-left: 15px;
 }
-.post-1{
-    font-size:10pt;
+.post_1{
+    font-size:13px;
     color:black;
     font-weight:300;
     text-align:justify;
@@ -298,29 +271,29 @@ nav{
 }
 .post_header{
     margin-top: -10px;
-    font-size:18pt;
+    font-size: 24px;
     font-weight:400;
 }
 .small_header{
     text-align: left;
     margin-top: -15px;
-    font-size: 10pt;
+    font-size: 13px;
 }
-aside {
+aside{
     width: 322px;
     height: 800px;
     position: absolute;
     top: 55px;
     right: 30px;
 }
-.week {
+.week{
     position: relative;
     top:-40px;
     height:270px;
     width:318px;
     background-color: #86e7f0;
 }
-.weekly {
+.weekly{
     position: absolute;
     left:95px;
     top:-7%;
@@ -332,8 +305,8 @@ aside {
     color: white;
     border: solid 5px white;
 }
-.twelve {
-    font-size: 60pt;
+.twelve{
+    font-size: 80px;
     font-family:Raleway, sans-serif;
 }
 #weekend{
@@ -341,26 +314,26 @@ aside {
     top:55px;
     left:35px;
     text-align: center;
-    font-size: 16pt;
+    font-size: 21px;
 }
 .week h3{
     position: absolute;
     top: 70px;
     left:30px;
-    font-size:30pt;
+    font-size:40px;
     word-spacing:5px;
     color:white;
     font-weight:100;
 }
-.week p {
+.week p{
     color:white;
     position: absolute;
     bottom:20px;
     left: 0;
     text-align: center;
-    font-size: 19pt;
+    font-size: 25px;
 }
-.week button {
+.week button{
     position: absolute;
     bottom: 10px;
     left: 23%;
@@ -370,17 +343,17 @@ aside {
     background-color: #58d1dc;
     border: none;
     border-radius: 7px;
-    font-size: 13pt;
+    font-size: 17px;
     word-spacing: 1px;
 }
-.week button:hover {
+.week button:hover{
     cursor: pointer;
     border: #595959 solid 2px;
 }
 .week button:active{
     background-color: #bb4465;
 }
-.join {
+.join{
     position: relative;
     height:270px;
     width:318px;
@@ -389,26 +362,26 @@ aside {
     background-color: #393a39;
     color:white;
 }
-.mailing {
+.mailing{
     text-align: center;
     position: relative;
     top:20px;
-    font-size: 20pt;
+    font-size: 26px;
 }
-.join p {
+.join p{
     text-align: left;
     width: 270px;
     padding-left: 30px;
     padding-top: 10px;
 }
-.name {
+.name{
     position: relative;
     left: 30px;
     width:78%;
     height: 20px;
     border: none;
 }
-.email {
+.email{
     position: relative;
     left: 30px;
     width:78%;
@@ -416,7 +389,7 @@ aside {
     margin-top: 15px;
     border: none;
     }
-.join button {
+.join button{
     position: relative;
     bottom:-17px;
     width:190px;
@@ -424,7 +397,7 @@ aside {
     left: 60px;
     background-color: #bb4465;
     color: white;
-    font-size: 13pt;
+    font-size: 17px;
     border: none;
     cursor: pointer;
     border-radius: 7px;
@@ -436,32 +409,32 @@ aside {
     background-color: rosybrown;
     color: black;
 }
-.line {
+.line{
     position:absolute;
     bottom: 0;
     width: 100%;
     height: 3%;
     background-color: #bb4465;
 }
-.container {
+.container{
     position: relative;
     height:87px;
     width:110%;
     background: #393a39;
     color:white;
 }
-.link {
+.link{
     position: absolute;
     top:28%;
     left:33%;
-    font-size:12pt;
+    font-size:16px;
 }
 .link label,a{
     color:white;
-    font-size: 12pt;
+    font-size: 16px;
     text-decoration: none;
 }
-.icons {
+.icons{
     position: absolute;
     top:33%;
     right:4%;
@@ -470,10 +443,10 @@ aside {
 .icons a{
     display:inline-block;
 }
-.container a:hover {
+.container a:hover{
     text-decoration: underline;
 }
-a:active {
+a:active{
     color:blue;
 }
 
