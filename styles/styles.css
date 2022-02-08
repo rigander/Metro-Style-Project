@@ -11,15 +11,16 @@
      margin-right: 20%;
  }
 .top_menu{
-    float: left;
+    position: relative;
+    left:-200px;
     height: 100px;
-    width: 1300px;
+    width: 1480px;
     border-bottom: #a5a5a5 solid 2px;
 }
 .metro_round{
     position: relative;
     top: 15px;
-    left: 17px;
+    left: 195px;
     width:300px;
 }
 .metro{
@@ -42,7 +43,7 @@
 }
 nav{
     margin-top:-40px;
-    margin-right:190px;
+    margin-right:150px;
     float: right;
     width:470px;
     height:70px;
@@ -173,6 +174,11 @@ nav ul li a:hover{
     border:none;
     cursor: pointer;
 }
+#arrow_left::after{
+    content: "\003C";
+    color:white;
+    font-size: 25px;
+}
 #arrow_right{
     position:absolute;
     bottom:88px;
@@ -182,6 +188,11 @@ nav ul li a:hover{
     background-color: #989998;
     border:none;
     cursor:pointer;
+}
+#arrow_right::after{
+    content: "\003E";
+    color: white;
+    font-size: 25px;
 }
 #arrow_left:hover{
     background-color: #b8dc58;
@@ -409,24 +420,18 @@ aside{
     background-color: rosybrown;
     color: black;
 }
-.line{
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-    height: 3%;
-    background-color: #bb4465;
-}
 .container{
     position: relative;
+    left: -200px;
     height:87px;
-    width:110%;
+    width:120%;
     background: #393a39;
     color:white;
 }
 .link{
     position: absolute;
     top:28%;
-    left:33%;
+    left:38%;
     font-size:16px;
 }
 .link label,a{
@@ -434,14 +439,14 @@ aside{
     font-size: 16px;
     text-decoration: none;
 }
-.icons{
-    position: absolute;
-    top:33%;
-    right:4%;
+.icons, li{
+    display: inline;
     word-spacing: 10px;
 }
-.icons a{
-    display:inline-block;
+.icons{
+    position: absolute;
+    right:180px;
+    bottom: 15px;
 }
 .container a:hover{
     text-decoration: underline;
