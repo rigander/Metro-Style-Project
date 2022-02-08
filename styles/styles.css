@@ -117,7 +117,7 @@ nav ul li a:hover{
 }
 .wrapper{
     width:1200px;
-    height:250px;
+    height:1600px;
 }
 .shapes{
     width: 307px;
@@ -148,7 +148,7 @@ nav ul li a:hover{
 }
 .lorem_ipsum p{
     column-count: 1;
-    width:321px;
+    width:320px;
     height:240px;
     text-align: left;
     word-wrap: break-word;
@@ -282,11 +282,10 @@ nav ul li a:hover{
     font-size: 13px;
 }
 aside{
-    position: relative;
-    left:400px;
-    float: left;
     width: 322px;
-    height: 1200px;
+    height: 900px;
+    float: right;
+    margin-right: 180px;
 }
 .ipad_guide{
     position: relative;
