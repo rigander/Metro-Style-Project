@@ -214,8 +214,9 @@ nav ul li a:hover{
 }
 .articles{
     position: absolute;
-    top:920px;
-    width:700px;
+    top: 920px;
+    width: 700px;
+    height: 800px;
 
 }
 .post{
