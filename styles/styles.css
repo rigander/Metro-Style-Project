@@ -427,9 +427,7 @@ aside{
     color: black;
 }
 .container{
-    position:absolute;
-    left:-200px;
-    bottom:0;
+    position: relative;
     height:87px;
     width:1450px;
     background: #393a39;
