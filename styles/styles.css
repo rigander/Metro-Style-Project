@@ -222,7 +222,11 @@ nav ul li a:hover{
 .post{
     width:220px;
     float:left;
-    padding-right:20px;
+    padding-right:10px;
+    padding-bottom: 20px;
+}
+.post_1{
+    width:210px;
 }
 #ultimate_apple{
     margin-top:14px;
@@ -427,7 +431,9 @@ aside{
     color: black;
 }
 .container{
+    margin-top: 30px;
     position: relative;
+    left:-200px;
     height:87px;
     width:1450px;
     background: #393a39;
