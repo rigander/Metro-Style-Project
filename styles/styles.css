@@ -6,9 +6,11 @@
     src: url("/fonts/Optima LT Regular.ttf");
 }
  body{
+     position: relative;
      font-family: "Segoe WP", sans-serif;
      margin-left: 21%;
      margin-right: 20%;
+     height:1800px;
  }
 .top_menu{
     position: relative;
@@ -80,6 +82,7 @@ nav ul li a:hover{
     height:400px;
     float: left;
     margin-top: 120px;
+    margin-bottom: 20px;
 }
 .apple h1 {
     font-weight:200;
@@ -121,6 +124,7 @@ nav ul li a:hover{
     height: 240px;
     float:left;
     background: radial-gradient(#e4e4e4, #a5a5a5);
+    margin-left: -20px;
 }
 .shapes img {
     position: relative;
@@ -132,10 +136,15 @@ nav ul li a:hover{
     margin-right: 15px;
 }
 .lorem_ipsum{
-    display: inline-block;
     position: relative;
-    width: 350px;
     padding-left: 25px;
+    height: 400px;
+    width: 600px;
+}
+.cssauthor{
+    position: absolute;
+    top:535px;
+    left:350px;
 }
 .lorem_ipsum p{
     column-count: 1;
@@ -203,22 +212,16 @@ nav ul li a:hover{
 #arrow_left:active{
     background-color: #bb4465;
 }
-.ipad_guide{
-    float: right;
-    position: relative;
-    right:185px;
-    width:320px;
-    height:250px;
-    border: black solid 1px;
+.articles{
+    position: absolute;
+    top:920px;
+    width:700px;
+
 }
-.ipad_guide, h2, h4 {
-   text-align: center;
-}
-.ipad_guide h2{
-    color:#b8dc58;
-    font-size:40px;
-    font-weight:800;
-    margin-top:-26px;
+.post{
+    width:210px;
+    float:left;
+    padding-right:20px;
 }
 #ultimate_apple{
     margin-top:14px;
@@ -256,17 +259,8 @@ nav ul li a:hover{
     background-color: white;
     column-count:3;
 }
-.posts1{
-    margin-top: 10px;
-}
-.posts1 h4 span{
+.post h4 span{
     margin-left: 14px;
-}
-.posts2 h4 span{
-    margin-left: 15px;
-}
-.posts3 h4 span{
-    margin-left: 15px;
 }
 .post_1{
     font-size:13px;
@@ -288,15 +282,30 @@ nav ul li a:hover{
     font-size: 13px;
 }
 aside{
+    position: relative;
+    left:400px;
+    float: left;
     width: 322px;
-    height: 800px;
-    position: absolute;
-    top: 55px;
-    right: 30px;
+    height: 1200px;
+}
+.ipad_guide{
+    position: relative;
+    width:320px;
+    height:250px;
+    border: black solid 1px;
+}
+.ipad_guide, h2, h4 {
+    text-align: center;
+}
+.ipad_guide h2{
+    color:#b8dc58;
+    font-size:40px;
+    font-weight:800;
+    margin-top:-26px;
 }
 .week{
     position: relative;
-    top:-40px;
+    top:50px;
     height:270px;
     width:318px;
     background-color: #86e7f0;
@@ -363,10 +372,10 @@ aside{
 }
 .join{
     position: relative;
+    top:80px;
     height:270px;
     width:318px;
     border: black solid 1px;
-    margin-top:-15px;
     background-color: #393a39;
     color:white;
 }
@@ -418,10 +427,11 @@ aside{
     color: black;
 }
 .container{
-    position: relative;
-    left: -200px;
+    position:absolute;
+    left:-200px;
+    bottom:0;
     height:87px;
-    width:120%;
+    width:1450px;
     background: #393a39;
     color:white;
 }
