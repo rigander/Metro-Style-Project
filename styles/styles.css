@@ -265,7 +265,7 @@ nav ul li a:hover{
     column-count:3;
 }
 .post h4 span{
-    margin-left: 14px;
+    margin-left: 11px;
 }
 .post_1{
     font-size:13px;
@@ -433,9 +433,9 @@ aside{
 .container{
     margin-top: 30px;
     position: relative;
-    left:-200px;
+    left:-220px;
     height:87px;
-    width:1450px;
+    width:1500px;
     background: #393a39;
     color:white;
 }
@@ -460,7 +460,7 @@ aside{
 }
 .icons{
     position: absolute;
-    right:180px;
+    right:210px;
     bottom: 15px;
 }
 .container a:hover{
