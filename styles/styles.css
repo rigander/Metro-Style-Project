@@ -43,7 +43,7 @@
 }
 nav{
     margin-top:-40px;
-    margin-right:150px;
+    margin-right:220px;
     float: right;
     width:470px;
     height:70px;
@@ -99,13 +99,13 @@ nav ul li a:hover{
     background:#373737;
     text-align: center;
     margin-top: -19px;
-    margin-left: 20px;
 }
 .video a{
     font-size: 23px;
 }
 .video a img{
     padding-right: 7px;
+    padding-top: 11px;
 }
 .ipad{
     float:left;
@@ -127,12 +127,9 @@ nav ul li a:hover{
     top:71px;
     left:42px;
 }
-#mac{
-    margin-left: -27px;
-    margin-top: -2px;
-}
 #iphone{
     margin-top:-5px;
+    margin-right: 15px;
 }
 .lorem_ipsum{
     display: inline-block;
