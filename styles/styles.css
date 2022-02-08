@@ -215,12 +215,12 @@ nav ul li a:hover{
 .articles{
     position: absolute;
     top: 920px;
-    width: 700px;
+    width: 720px;
     height: 800px;
 
 }
 .post{
-    width:210px;
+    width:220px;
     float:left;
     padding-right:20px;
 }
