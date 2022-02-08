@@ -374,7 +374,7 @@ aside{
     top:80px;
     height:270px;
     width:318px;
-    border: black solid 1px;
+    border-bottom: #bb4465 solid 10px;
     background-color: #393a39;
     color:white;
 }
@@ -448,6 +448,10 @@ aside{
 .icons, li{
     display: inline;
     word-spacing: 10px;
+}
+.icons li{
+    display: inline-block;
+    width: 30px;
 }
 .icons{
     position: absolute;
