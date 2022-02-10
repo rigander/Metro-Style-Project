@@ -6,21 +6,17 @@
     src: url("/fonts/Optima LT Regular.ttf");
 }
  body{
-     position: relative;
      font-family: "Segoe WP", sans-serif;
-     margin-left: 21%;
-     margin-right: 20%;
-     height:1800px;
- }
-.top_menu{
-    position: relative;
-    left:-200px;
-    height: 100px;
-    width: 1480px;
+}
+header{
+    margin: 0 0 0 150px;
+    height: 90px;
+    width: 1500px;
     border-bottom: #a5a5a5 solid 2px;
 }
-.metro_round{
-    position: relative;
+header div{
+    float: left;
+    margin:8px 0 0 250px;
     top: 15px;
     left: 195px;
     width:300px;
@@ -44,51 +40,33 @@
     font-weight: 600;
 }
 nav{
-    margin-top:-40px;
-    margin-right:220px;
     float: right;
-    width:470px;
+    margin: 10px 160px 0 0;
+    width:600px;
     height:70px;
-    word-spacing:40px;
-    }
-nav ul li{
-    display: inline-block;
-    width:80px;
-    height: 25px;
 }
 nav ul li a{
     color:black;
     font-size: 20px;
     font-weight: 500;
-    text-align: center;
-    padding-top: 4px;
+    margin-left: 35px;
+    padding: 5px 15px 7px;
+    text-decoration: none;
+    list-style: none;
 }
 nav ul li a:hover{
-    display: inline-block;
-    height: 35px;
-    width: 75px;
     background-color: black;
     color: white;
     cursor: pointer;
 }
-#about{
-    margin-left: -5px;
-}
-#articles{
-    margin-left: -7px;
-}
-#pages{
-    margin-left: -12px;
-}
-.wrapper{
-    width:1200px;
-    height:1600px;
+main{
+    margin: 0 390px;
+    width: 1130px;
 }
 .apple{
-    height:400px;
-    float: left;
-    margin-top: 120px;
-    margin-bottom: 20px;
+    height: 240px;
+    width: 320px;
+    margin: 164px 0 0 20px;
 }
 .apple h1 {
     font-weight:200;
@@ -102,29 +80,25 @@ nav ul li a:hover{
     text-align: left;
     margin-top: -35px;
 }
-.video{
+.apple div{
     width: 203px;
     height: 39px;
     background:#373737;
     text-align: center;
     margin-top: -19px;
 }
-.video a{
+.apple div a{
     font-size: 23px;
 }
-.video a img{
+.apple div a img{
     padding-right: 7px;
     padding-top: 11px;
 }
 .ipad{
-    float:left;
-    margin-left: 358px;
-    margin-top: -236px;
+    margin:-275px 0 30px 360px;
 }
 .lorem_ipsum{
-    float: left;
-    padding-left: 25px;
-    padding-bottom: 40px;
+    padding:0 0 40px;
     height: 250px;
     width: 670px;
 }
@@ -133,7 +107,6 @@ nav ul li a:hover{
     height: 240px;
     float:left;
     background: radial-gradient(#e4e4e4, #a5a5a5);
-    margin-left: -20px;
 }
 .shapes img {
     position: relative;
@@ -223,13 +196,6 @@ nav ul li a:hover{
 }
 .articles{
     width: 720px;
-    height: fit-content;
-}
-aside{
-    float: left;
-    width: 322px;
-    height: 900px;
-    margin-left: -20px;
 }
 .post{
     width:220px;
@@ -237,12 +203,51 @@ aside{
     padding-right:10px;
     padding-bottom: 20px;
 }
-.post_1{
+.post p{
     width:210px;
+    font-size:13px;
+    color:black;
+    font-weight:300;
+    text-align:justify;
+    margin-top:9px;
+    margin-bottom:24px;
+    line-height: 20px;
 }
-#ultimate_apple{
+.post h3{
+    margin-top: -10px;
+    font-size: 24px;
+    font-weight:400;
+}
+.post h4{
+    text-align: left;
+    margin-top: -15px;
+    font-size: 13px;
+}
+.post h4 span{
+    margin-left: 11px;
+}
+aside{
+    width: 322px;
+    height: 900px;
+    margin-left: 700px;
+}
+.ipad_guide{
+    position: relative;
+    width:320px;
+    height:250px;
+    border: black solid 1px;
+}
+.ipad_guide h2{
+    color:#b8dc58;
+    font-size:40px;
+    font-weight:800;
+    margin-top:-26px;
+    text-align: center;
+}
+.ipad_guide h4{
     margin-top:14px;
     color:#9ba08d;
+    text-align: center;
 }
 #css{
     position: absolute;
@@ -259,55 +264,15 @@ aside{
     left:37px;
     bottom:-30px;
 }
-#mac{
-    padding-left: 40px;
-}
-.post h4 span{
-    margin-left: 11px;
-}
-.post_1{
-    font-size:13px;
-    color:black;
-    font-weight:300;
-    text-align:justify;
-    margin-top:9px;
-    margin-bottom:24px;
-    line-height: 20px;
-}
-.post_header{
-    margin-top: -10px;
-    font-size: 24px;
-    font-weight:400;
-}
-.small_header{
-    text-align: left;
-    margin-top: -15px;
-    font-size: 13px;
-}
-.ipad_guide{
-    position: relative;
-    width:320px;
-    height:250px;
-    border: black solid 1px;
-}
-.ipad_guide, h2, h4 {
-    text-align: center;
-}
-.ipad_guide h2{
-    color:#b8dc58;
-    font-size:40px;
-    font-weight:800;
-    margin-top:-26px;
-}
 .week{
     position: relative;
-    top:50px;
+    margin-top: 50px;
     height:270px;
     width:318px;
     background-color: #86e7f0;
 }
 .weekly{
-    position: absolute;
+    position: relative;
     left:95px;
     top:-7%;
     height: 120px;
@@ -318,46 +283,46 @@ aside{
     color: white;
     border: solid 5px white;
 }
-.twelve{
+.weekly div{
     font-size: 80px;
     font-family:Raleway, sans-serif;
+    margin-right: 13px;
 }
-#weekend{
-    position: absolute;
-    top:55px;
-    left:35px;
-    text-align: center;
+.weekly h4{
+    margin: -15px 15px 0 0;
     font-size: 21px;
+    font-weight: 400;
 }
 .week h3{
-    position: absolute;
-    top: 70px;
-    left:30px;
+    margin:-22px 24px 0 0;
+    text-align: center;
     font-size:40px;
     word-spacing:5px;
     color:white;
     font-weight:100;
 }
 .week p{
+    margin:0 20px 0;
     color:white;
-    position: absolute;
-    bottom:20px;
-    left: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 .week button{
-    position: absolute;
-    bottom: 10px;
-    left: 23%;
+    margin: 5px 0 0 50px;
+    padding-top: 2px;
     height: 30px;
     width: 180px;
     color: white;
     background-color: #58d1dc;
     border: none;
     border-radius: 7px;
-    font-size: 17px;
-    word-spacing: 1px;
+    font-size: 19px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.week button a{
+    color:white;
+    text-decoration: none;
 }
 .week button:hover{
     cursor: pointer;
@@ -367,47 +332,41 @@ aside{
     background-color: #bb4465;
 }
 .join{
-    position: relative;
-    top:80px;
     height:270px;
     width:318px;
     border-bottom: #bb4465 solid 10px;
     background-color: #393a39;
     color:white;
+    margin-top: 40px;
 }
-.mailing{
+.join div{
+    padding: 15px 20px 0 0;
     text-align: center;
-    position: relative;
-    top:20px;
     font-size: 26px;
 }
 .join p{
+    margin:10px 0 0 27px;
     text-align: left;
-    width: 270px;
-    padding-left: 30px;
-    padding-top: 10px;
 }
 .name{
-    position: relative;
-    left: 30px;
+    margin: 20px 0 0 10px;
+    padding-left: 7px;
     width:78%;
     height: 20px;
     border: none;
 }
 .email{
-    position: relative;
-    left: 30px;
-    width:78%;
+    width:78.5%;
     height: 20px;
-    margin-top: 15px;
+    margin: 10px 0 0 10px;
     border: none;
-    }
+    padding: 2px 0 0 7px;
+}
 .join button{
-    position: relative;
-    bottom:-17px;
+    margin: 20px 0 0 45px;
+    text-align: center;
     width:190px;
     height: 30px;
-    left: 60px;
     background-color: #bb4465;
     color: white;
     font-size: 17px;
@@ -416,27 +375,23 @@ aside{
     border-radius: 7px;
 }
 .join button:hover{
-      border: 2px bisque solid;
+    border: 2px bisque solid;
 }
 .join button:active{
     background-color: rosybrown;
     color: black;
 }
-.container{
+footer{
     clear: both;
-    position: relative;
-    margin-top: 30px;
-    margin-left: -220px;
     height:87px;
     width:1500px;
     background: #393a39;
     color:white;
+    margin: 50px 0 0 150px;
 }
 .link{
-    position: absolute;
-    top:28%;
-    left:38%;
     font-size:16px;
+    
 }
 .link label,a{
     color:white;
@@ -444,6 +399,7 @@ aside{
     text-decoration: none;
 }
 .icons, li{
+    float:right;
     display: inline;
     word-spacing: 10px;
 }
@@ -452,9 +408,7 @@ aside{
     width: 30px;
 }
 .icons{
-    position: absolute;
-    right:210px;
-    bottom: 15px;
+
 }
 .container a:hover{
     text-decoration: underline;
