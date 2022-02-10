@@ -7,6 +7,8 @@
 }
  body{
      font-family: "Segoe WP", sans-serif;
+     max-width: 1920px;
+     margin:auto;
 }
 header{
     margin: 0 0 0 150px;
