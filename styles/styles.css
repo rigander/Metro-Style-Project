@@ -390,25 +390,23 @@ footer{
     margin: 50px 0 0 150px;
 }
 .link{
+    padding-top: 30px;
     font-size:16px;
-    
+    text-align: center;
 }
 .link label,a{
     color:white;
     font-size: 16px;
     text-decoration: none;
 }
+
+.icons{
+    float: right;
+    margin: -20px 200px 0 0;
+}
 .icons, li{
-    float:right;
     display: inline;
     word-spacing: 10px;
-}
-.icons li{
-    display: inline-block;
-    width: 30px;
-}
-.icons{
-
 }
 .container a:hover{
     text-decoration: underline;
