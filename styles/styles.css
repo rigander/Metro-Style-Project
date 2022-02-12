@@ -48,16 +48,22 @@ header div{
 }
 nav{
     float: right;
-    transform: translate(-14%, -50%);
+    transform: translate(-7%, -50%);
 }
-nav ul li a{
-    display: inline;
+nav li{
+    display: inline-block;
+    margin-right:40px;
+    text-decoration: none;
+    list-style: none;
+}
+nav li a{
+    display: inline-block;
     color:black;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 35px;
-    text-decoration: none;
-    list-style: none;
+    width: 140%;
+    height: 30px;
+    text-align: center;
 }
 nav ul li a:hover{
     background-color: black;
