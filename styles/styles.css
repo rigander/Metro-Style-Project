@@ -11,17 +11,22 @@
      margin: 0 auto;
 }
 header{
-    margin: 0 0 0 150px;
+    position: relative;
+    margin:0 auto;
     height: 90px;
     width: 1500px;
     border-bottom: #a5a5a5 solid 2px;
 }
+.header-wrapper{
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
 header div{
-    float: left;
-    margin:8px 0 0 250px;
-    top: 15px;
-    left: 195px;
-    width:300px;
+    position: absolute;
+    top:50%;
+    transform: translate(0, -50%);
+
 }
 .metro{
     font-family: "Trebuchet MS", serif;
@@ -43,9 +48,7 @@ header div{
 }
 nav{
     float: right;
-    margin: 10px 160px 0 0;
-    width:600px;
-    height:70px;
+    transform: translate(-14%, -50%);
 }
 nav ul li a{
     color:black;
@@ -74,30 +77,36 @@ main{
     font-weight:200;
     font-size: 59px;
     color: #373737;
+    margin: 0;
 }
 .apple h2 {
     font-size: 44px;
     font-weight:200;
     color:#373737;
     text-align: left;
-    margin-top: -35px;
+    margin: 0;
 }
-.apple div{
+.apple a{
+    display: inline-block;
     width: 203px;
     height: 39px;
     background:#373737;
     text-align: center;
-    margin-top: -19px;
-}
-.apple div a{
+    margin-top: 30px;
     font-size: 23px;
 }
-.apple div a img{
+.apple a img{
     padding-right: 7px;
     padding-top: 11px;
 }
+.banner{
+    position: relative;
+    height: 400px;
+}
 .ipad{
-    margin:-275px 0 30px 360px;
+    position: absolute;
+    top: -30px;
+    right: -60px;
 }
 .lorem_ipsum{
     padding:0 0 40px;
@@ -105,9 +114,9 @@ main{
     width: 670px;
 }
 .shapes{
+    float:left;
     width: 307px;
     height: 240px;
-    float:left;
     background: radial-gradient(#e4e4e4, #a5a5a5);
 }
 .shapes img {
@@ -120,9 +129,9 @@ main{
     margin-right: 15px;
 }
 .cssauthor{
-    float: left;
+    margin-left: 307px;
     height: 240px;
-    width: 330px;
+    width: 345px;
     position: relative;
     padding-left: 20px;
     margin-top: -10px;
@@ -151,10 +160,13 @@ main{
     color:black;
     text-decoration: none;
 }
-#arrow_left{
-    position:absolute;
+.arrow-buttons-block{
+    float:right;
+    position: absolute;
     bottom: 0;
-    right:40px;
+    right:0;
+}
+#arrow_left{
     height:39px;
     width:31px;
     background-color: #7c7d7c;
@@ -167,9 +179,6 @@ main{
     font-size: 25px;
 }
 #arrow_right{
-    position:absolute;
-    bottom:0;
-    right:10px;
     height:39px;
     width:31px;
     background-color: #989998;
@@ -232,6 +241,7 @@ aside{
     width: 322px;
     height: 900px;
     margin-left: 700px;
+    margin-top: -10px;
 }
 .ipad_guide{
     position: relative;
@@ -384,15 +394,17 @@ aside{
     color: black;
 }
 footer{
+    position: relative;
     clear: both;
     height:87px;
     width:1500px;
     background: #393a39;
     color:white;
-    margin: 50px 0 0 150px;
+    margin: 0 auto;
 }
 .link{
     padding-top: 30px;
+    padding-right: 160px;
     font-size:16px;
     text-align: center;
 }
@@ -403,8 +415,10 @@ footer{
 }
 
 .icons{
-    float: right;
-    margin: -20px 200px 0 0;
+    position: absolute;
+    top:50%;
+    transform: translate(720%,-80%);
+
 }
 .icons, li{
     display: inline;
