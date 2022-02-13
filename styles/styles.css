@@ -279,7 +279,7 @@ aside{
     background-color: #86e7f0;
 }
 .weekly{
-    position: absolute;
+    position: relative;
     left:95px;
     top:-7%;
     height: 120px;
@@ -289,38 +289,36 @@ aside{
     text-align: center;
     color: white;
     border: solid 5px white;
+    margin: 0;
 }
 .weekly div{
     font-size: 80px;
     font-family:Raleway, sans-serif;
+    margin: 0 13px;
 }
 .weekly h4{
-    margin: -15px auto;
+    margin: -10px 14px;
     font-size: 21px;
     font-weight: 400;
 }
 .week h3{
-    padding-top: 105px;
-    margin: auto;
+    margin:-15px auto 0;
     width: 280px;
     text-align: center;
-    font-size:40px;
+    font-size: 38px;
     word-spacing:5px;
     color:white;
     font-weight:100;
 }
 .week p{
-    margin: auto;
+    margin:-5px auto;
     width: 280px;
     color:white;
     text-align: center;
     font-size: 23px;
 }
 .week button{
-    position: absolute;
-    left:50%;
-    margin-right: -50%;
-    transform: translate(-50%, 34%);
+    margin: 12px 50px;
     padding-top: 2px;
     height: 30px;
     width: 180px;
@@ -358,7 +356,8 @@ aside{
     font-size: 26px;
 }
 .join p{
-    margin:10px 0 0 27px;
+    margin: 0;
+    padding: 10px 10px;
     text-align: left;
 }
 .name{
