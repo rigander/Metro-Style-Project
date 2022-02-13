@@ -300,7 +300,7 @@ aside{
     font-weight: 400;
 }
 .week h3{
-    padding-top: 25px;
+    padding-top: 105px;
     margin: auto;
     width: 280px;
     text-align: center;
@@ -320,7 +320,7 @@ aside{
     position: absolute;
     left:50%;
     margin-right: -50%;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 34%);
     padding-top: 2px;
     height: 30px;
     width: 180px;
