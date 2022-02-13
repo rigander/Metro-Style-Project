@@ -26,7 +26,6 @@ header div{
     position: absolute;
     top:50%;
     transform: translate(0, -50%);
-
 }
 .metro{
     font-family: "Trebuchet MS", serif;
@@ -267,16 +266,6 @@ aside{
     color:#9ba08d;
     text-align: center;
 }
-#css{
-    position: absolute;
-    right:46px;
-    bottom:11px;
-}
-#ipad_mini{
-    position: absolute;
-    left:117px;
-    bottom:-19px;
-}
 #ipad_pro{
     position: absolute;
     left:37px;
@@ -398,6 +387,7 @@ aside{
     border: none;
     cursor: pointer;
     border-radius: 7px;
+    padding-top: 3px;
 }
 .join button:hover{
     border: 2px bisque solid;
